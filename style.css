@@ -23,6 +23,8 @@ h1 {
     font-size: 24px;
     color: #F9FAF8;
     display: flex;
+    justify-content: space-between;
+    padding: 10px;
 }
 
 .header-left {
@@ -32,7 +34,8 @@ h1 {
 
 .header-right {
     display: flex;
-    justify-content: space-between
+    justify-content: space-between;
+    gap: 50px;
 }
 
 .container-hero {
