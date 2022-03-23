@@ -77,6 +77,21 @@ p {
     align-items: center;
 }
 
+.container-information {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.card {
+    width: 200px;
+    height: 200px;
+    background-color: none;
+    border-color: #3882F6;
+    border-style: solid;
+    border-radius: 10px;
+}
+
 .footer {
     display: flex;
     margin-top: auto;
