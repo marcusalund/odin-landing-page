@@ -125,6 +125,35 @@ img {
     margin: 10px;
 }
 
+.container-quote {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+}
+
+.quote-section {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+    max-width: 500px;;
+}
+
+.quote-author {
+    font-size: 18px;
+    color: black;
+    text-align: right;
+    padding-right: 20px;
+
+}
+
 .footer {
     display: flex;
     margin-top: auto;
