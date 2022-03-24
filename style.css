@@ -39,7 +39,6 @@ p {
 
 .header-left {
     display: flex;
-
 }
 
 .header-right {
@@ -61,7 +60,19 @@ p {
 .hero-left {
     display: flex;
     flex-direction: column;
-    padding: 20px
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+}
+
+button.hero {
+    background-color: #3882F6;
+    border-color: #E5E7EB;
+    color: #F9FAF8;
+    padding: 10px 15px;
+    font-weight: bold;
+    font-size: 16px;
+    max-width: 100px;
 }
 
 .hero-right {
@@ -152,6 +163,37 @@ img {
     text-align: right;
     padding-right: 20px;
 
+}
+
+.container-action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 100px;
+}
+
+.action-box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    height: 100px;
+    border-radius: 10px;
+    background-color: #3882F6;
+}
+
+.box-text {
+    color: #F9FAF8;
+}
+
+button.action {
+    background-color: #3882F6;
+    border-color: #E5E7EB;
+    color: #F9FAF8;
+    padding: 10px 15px;
+    font-weight: bold;
+    font-size: 16px;
 }
 
 .footer {
